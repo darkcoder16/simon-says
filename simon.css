@@ -1,0 +1,56 @@
+
+body {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mainbox div {
+    margin: 0.7rem;
+    border: 7px solid black;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.red {
+    background-color: rgba(195, 0, 255, 0.567);
+}
+
+.green {
+    background-color: rgb(151, 255, 47);
+
+}
+
+.orange {
+    background-color: rgb(255, 115, 0);
+}
+
+.blue {
+    background-color: darkcyan;
+}
+
+.mainbox {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btnflash {
+    background-color: antiquewhite;
+}
+
+.userflash {
+    background-color: darkblue;
+}
+
+.win {
+    background-color: aqua;
+}
+.loss {
+    background-color: red;
+}
